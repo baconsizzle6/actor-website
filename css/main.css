@@ -94,6 +94,160 @@ textarea {
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
+/*BASE STYLES*/
+body {
+    color: #363635;
+    max-width: 1200px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+
+}
+.sm-title {
+    text-transform: uppercase;
+    letter-spacing: .20em;
+    font-size: .85em;
+    color: #1a75ff;
+}
+h1 {
+    font-size: 2.5em;
+}
+
+.underline {
+    border-bottom: 2px solid #1a75ff;
+}
+
+p {
+    font-family: 'Lora', serif;
+}
+
+/*HEADER*/
+.hero {
+    background: url("../img/VDP_6415edit.jpg") no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 500px;
+    margin: 0 auto;
+}
+.hamburger {
+    cursor: pointer;
+    padding: 21px 20px 15px 15px;
+    display: block;
+    text-align: left;
+    float: right;
+}
+.line {
+    border-bottom: 4px solid #1a75ff;
+    margin-bottom: 6px;
+    width: 40px;
+}
+
+.line:last-child{
+    margin-bottom: 0;
+}
+.menu {
+    height: 0;
+    overflow: hidden;
+    transition: height .4s;
+    background-color: #939598;
+}
+.open{
+    height: 205px; 
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0 auto;
+    clear: both;
+    opacity: .5;
+}
+
+nav ul li {
+    text-align: right;
+    padding: 15px 15px;
+    text-transform: uppercase;
+    color: #fff;
+
+}
+
+.blurb {
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 140px 15px 0;
+    margin: 0;
+}
+
+img {
+    width: 100%;
+}
+h1 {
+    margin: 30px 0 20px 0;
+}
+
+.blurb p {
+    margin: 0;
+    padding: 0 15px;
+    text-align: center;
+}
+
+
+/*FOOTER*/
+footer {
+    clear: both;
+    padding: 0;
+    margin: 0;
+}
+
+.foot-bar {
+    height: 100px;
+    clear: both;
+    background-color: #1a75ff;
+    text-align: center;
+    padding: 10px 0;
+    margin: 0 auto;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: .8px;
+}
+.foot-bar1 {
+    height: 100px;
+    clear: both;
+    background-color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    margin: 0 auto;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: .8px;
+}
+.foot-bar2 {
+    height: 100px;
+    clear: both;
+    background-color: #939598;
+    text-align: center;
+    padding: 10px 0;
+    margin: 0 auto;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: .8px;
+}
+.foot-bar3 {
+    height: 100px;
+    clear: both;
+    background-color: #363635;
+    text-align: center;
+    padding: 10px 0;
+    margin: 0 auto;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: .8px;
+    color: #fff;
+}
+
+
 
 
 
